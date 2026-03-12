@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>マイ・ファースト・ウェブページ</title>
+    <style>
+        /* 簡単な見た目の調整（CSS） */
+        body {
+            font-family: sans-serif;
+            line-height: 1.6;
+            max-width: 600px;
+            margin: 40px auto;
+            padding: 20px;
+            background-color: #f4f4f4;
+        }
+        .card {
+            background: white;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+        }
+        h1 { color: #333; }
+        button {
+            background-color: #007bff;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="card">
+        <h1>こんにちは、世界！</h1>
+        <p>これは私が初めて作成したWebページです。</p>
+        <p>HTMLで骨組みを作り、CSSでデザインを整えています。</p>
+        
+        <button onclick="greet()">ボタンを押してみてね</button>
+    </div>
+
+    <script>
+        // 動きをつける（JavaScript）
+        function greet() {
+            alert('Web開発の世界へようこそ！');
+        }
+    </script>
+
+</body>
+</html>
